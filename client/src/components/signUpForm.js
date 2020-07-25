@@ -3,7 +3,7 @@ import 'whatwg-fetch';
 //import axios from 'axios';
 import './signUpForm.css';
 import SignInForm from './signInForm';
-const skynetLogo = require('./staticFIles/skynet logo.png');
+const skynetLogo = require('./staticFIles/skynet2.jpg');
 
 
 let showSignIn = false;

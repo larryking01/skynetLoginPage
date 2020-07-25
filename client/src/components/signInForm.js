@@ -4,7 +4,7 @@ import 'whatwg-fetch';
 import './signInForm.css';
 import SignUpForm from './signUpForm';
 import DashBoard from './dashboard';
-const skynetLogo = require('./staticFIles/skynet logo.png');
+const skynetLogo = require('./staticFIles/skynet2.jpg');
 
 let showSignUp = false;
 let loginStatus = false;
