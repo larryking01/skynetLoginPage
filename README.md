@@ -21,7 +21,7 @@ This will start the react login frontend. When the frontend loads, the login scr
 If the user's email does not exist, he/she is not logged in but prompted that that user account does not exist and he can go back to the logi page and enter the right credentials or visit the sign up page by clicking on the sign up/ register button on the login page to sign up.
 
 Inside the client folder, you can insert the dashboard page in the signInForm.js file. This file is in client/src/components/signInForm.js. 
-Inside the render method of the signInFOrm.js file, a few checks are made to verify the password using if else blocks. If the credentials are correct, a dashboard component 
+Inside the render method of the signInFOrm.js file, a few checks are made to verify the password using if else blocks. If the credentials are correct, a DashBoard component 
 <DashBoard /> is rendered in the else block. Replace this component with your dashboard component. 
 
 
