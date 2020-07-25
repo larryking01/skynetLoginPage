@@ -13,11 +13,10 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 
 //mongodb connection string.
-let localDatabase = 'mongodb://localhost:27017/SkynetDatabase';
 let atlasDatabase = 'mongodb+srv://larry_king111:CB35529086@skynetcluster.7hpcr.mongodb.net/SkynetDatabase?retryWrites=true&w=majority'
 
 //connect to mongo
-mongoose.connect(localDatabase, {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex: true})
+mongoose.connect(atlasDatabase, {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex: true})
    .then(()=> {
        console.log('DATABASE CONNECTED SUCCESSFULLY.......')
    })
