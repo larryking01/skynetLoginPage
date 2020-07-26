@@ -4,13 +4,9 @@ This login program has a server folder and a client folder which make up the sys
 To run the program, both the server and the client should be running concurrently.
 
 The Server.
-After cloning or downloading this repository, start the server by navigating into the server folder. Once inside the server folder, enter the command npm install to install all of the necessary dependencies. Please make sure you navigate into the server folder, you run this command where the package.json file is. 
-
-After instsalling all dependencies, while still inside the server folder, start the server by running the command node start or npm run dev(this is a nodemon script and will start the server with nodemon, a package that listens and restarts the server automatically when changes are made.) The server runs on http://localhost:5000.
-
-Any of the above commands, node start or npm run dev will start the server. The server will then connect to a mongodb atlas database online where all of data and information will be stored. 
-
-After starting the server, we now have to start the react frontend in the client folder.
+The server is deployed to heroku online with the connection string
+https://skynetlogin.herokuapp.com/ 
+The connection string has been set in the react app. Once you clone the app, just start the client and work with it. No need to start the server as it has already been deployed online.
 
 
 The Client Folder.
