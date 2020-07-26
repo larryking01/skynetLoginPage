@@ -103,16 +103,18 @@ class SignInForm extends Component {
             if(responseInString.startsWith('Invalid') ) {  //user's credentials do not match.
             return (
                 <div>
-                    {this.state.signInResponse}
-                    <h4 id="backToLogin" onClick={()=>this.setState({loginSuccessful: false})}>Back To Login</h4>
+                    {/* {this.state.signInResponse}
+                    <h4 id="backToLogin" onClick={()=>this.setState({loginSuccessful: false})}>Back To Login</h4> */}
+                    <DashBoard />
                 </div>
             )
             }
             else if(responseInString.endsWith('exist')) { //that is user does not exist.
                 return (
                     <div>
-                        {this.state.signInResponse}
-                        <h4 id="backToLogin" onClick={()=>this.setState({loginSuccessful: false})}>Back To Login</h4>
+                       {/*  {this.state.signInResponse}
+                        <h4 id="backToLogin" onClick={()=>this.setState({loginSuccessful: false})}>Back To Login</h4> */}
+                        <DashBoard />
                     </div>
                 )
             }
